@@ -395,3 +395,83 @@ Processing by WelcomeController#about as HTML
 Completed 200 OK in 29ms (Views: 27.1ms | Allocations: 2482)
 
 
+Started GET "/" for 127.0.0.1 at 2022-02-02 18:31:35 +0100
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 59)
+  Rendered layout layouts/application.html.erb (Duration: 72.8ms | Allocations: 13741)
+Completed 200 OK in 80ms (Views: 79.1ms | Allocations: 14688)
+
+
+Started GET "/welcome/about" for 127.0.0.1 at 2022-02-02 18:31:40 +0100
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 30)
+  Rendered layout layouts/application.html.erb (Duration: 40.9ms | Allocations: 2231)
+Completed 200 OK in 44ms (Views: 43.0ms | Allocations: 2515)
+
+
+Started GET "/welcome/home" for 127.0.0.1 at 2022-02-02 18:33:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/home"):
+  
+Started GET "/welcome/home" for 127.0.0.1 at 2022-02-02 18:34:51 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/welcome/home"):
+  
+Started GET "/" for 127.0.0.1 at 2022-02-02 18:35:03 +0100
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 90.4ms | Allocations: 14268)
+Completed 200 OK in 100ms (Views: 96.8ms | Allocations: 15501)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-02-02 18:35:06 +0100
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 5.1ms | Allocations: 200)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 2401)
+Completed 200 OK in 33ms (Views: 30.4ms | Allocations: 2738)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-02 18:35:08 +0100
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 2215)
+Completed 200 OK in 42ms (Views: 39.8ms | Allocations: 2482)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-02-02 18:35:09 +0100
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 45.2ms | Allocations: 2232)
+Completed 200 OK in 53ms (Views: 51.7ms | Allocations: 2499)
+
+
+Started GET "/" for 127.0.0.1 at 2022-02-02 18:35:11 +0100
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 36.2ms | Allocations: 2209)
+Completed 200 OK in 50ms (Views: 48.2ms | Allocations: 2476)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-02-02 18:35:12 +0100
+Processing by WelcomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/about.html.erb within layouts/application
+  Rendered welcome/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 25.9ms | Allocations: 2220)
+Completed 200 OK in 30ms (Views: 29.0ms | Allocations: 2487)
+
+
