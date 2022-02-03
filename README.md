@@ -29,6 +29,23 @@
 * Configuration
 
 * Database creation
+> Create Table
+- articles table
+1 - Run rails generate migration create_articles
+2 - Go to the migrate folder in db and add the neccessary filed (t.string :title t.text :description)
+3 - Run rails db:migrate
+4 - check the schema file and be sure the table is created
+
+> Drop a table if there is a mistake
+1 - Run rails db:rollback
+2 - Update the table and repeat the step 3 in Create table
+- Alternatively, this is the best approach than dropping the table
+1 - Run rails generate migration add_description_to_articles. This will generate a new migration file
+2 - In the new migration file, add the missing fileds e.g
+add_column :articles, :description, :text
+add_column :articles, :created_at, :datetime
+add_column :articles, :updated_at, :datetime
+3 - Run rails db:migrate
 
 * Database initialization
 
