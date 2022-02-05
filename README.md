@@ -71,6 +71,21 @@ end
 
 > Note: Following the casing
 
+> Edit
+- Run command article = Article.find(1). # Where 1 id the id of the item you want to delete
+- article.title = "This is an edited article title"
+- article.save
+
+> Delete
+- article = Article.find(1)
+- article.destroy
+
+> Validation - Update your article model with the validation expression below
+- class Article < ActiveRecord::Base
+  validates :title, presence: true, length: {minimum: 3, maximum: 50}
+  validates :description, presence: true, length: {minimum: 3, maximum: 50}
+end
+
 * Database initialization
 
 * How to run the test suite
